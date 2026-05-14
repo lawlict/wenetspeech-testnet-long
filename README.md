@@ -67,3 +67,16 @@ output_dir/
 | end_time    | End time in the source audio (seconds)            |
 | text        | Concatenated transcript                           |
 | src_sids    | List of original WenetSpeech segment IDs merged   |
+
+## Citation
+
+```bibtex
+@inproceedings{zhang2022wenetspeech,
+  title={WenetSpeech: A 10000+ Hours Multi-domain Mandarin Corpus for Speech Recognition},
+  author={Zhang, Binbin and Lv, Hang and Guo, Pengcheng and Shao, Qijie and Yang, Chao and Xie, Lei and Xu, Xin and Bu, Hui and Chen, Xiaoyu and Zeng, Chenhen and Wu, Di and Peng, Zhendong},
+  booktitle={ICASSP 2022-2022 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={6182--6186},
+  year={2022},
+  organization={IEEE}
+}
+```

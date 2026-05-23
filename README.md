@@ -1,8 +1,8 @@
 # WenetSpeech TestNet Long Dataset
 
 This repo contains the description file and preparation script for a long-form
-audio dataset derived from WenetSpeech test_net. **7385 segments** were created by merging adjacent short segments from 124
-WenetSpeech test_net audio files into longer chunks (typically 1–30 seconds).
+audio dataset derived from WenetSpeech TestNet. **7385 segments** were created by merging adjacent short segments (typically 1–30 seconds) from 124
+WenetSpeech TestNet audio files into longer chunks.
 
 ## Merge Strategy
 
@@ -26,7 +26,7 @@ Parameters:
 
 ## Prerequisites
 
-- The original WenetSpeech test_net raw audio directory, structured as:
+- The original WenetSpeech TestNet raw audio directory, structured as:
   ```
   WenetSpeech_test/
   ├── audio/test_net/youtube/B00000/*.opus
